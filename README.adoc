@@ -5,8 +5,13 @@ This is a logistic regression problem:
 - input: images
 - labels: floating point number - temperature reading
 
-.Example training example
+.Training example
 image:data/images/001.jpg[]
 
 .Corresponding label in Fahrenheit:
 include::data/labels/001.txt[]
+
+== Tools used
+
+- Tensorflow
+- Keras Tuner
